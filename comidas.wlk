@@ -1,5 +1,6 @@
 import wollok.game.*
-
+import extras.*
+import pepita.*
 object manzana {
 
 	method image() = "manzana.png"
