@@ -16,8 +16,12 @@ object nido {
 
 object silvestre {
 
-	method image() = "silvestre.png"
+	var property position = game.at(3,0)
 
-	method position() = game.origin()
+	method seguir(ave){
+		if(ave.position().x()>2) position = game.at(ave.position().x(),0)
+	}
+
+	method image() = "silvestre.png"
 	
 }

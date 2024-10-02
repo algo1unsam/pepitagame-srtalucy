@@ -9,6 +9,7 @@ object tutorial1 {
 		game.addVisual(nido)
 		game.addVisual(silvestre)
 		game.addVisualCharacter(pepita)
+		config.configurarTeclas()
 	}
 
 }
@@ -45,11 +46,13 @@ object tutorial3 {
 object config {
 
 	method configurarTeclas() {
-		keyboard.left().onPressDo({ pepita.irA(pepita.position().left(1)) })
-		keyboard.right().onPressDo({ pepita.irA(pepita.position().right(1))})
+		//keyboard.left().onPressDo({ pepita.irA(pepita.position().left(1)) })
+		//keyboard.right().onPressDo({ pepita.irA(pepita.position().right(1))})
+		keyboard.any().onPressDo({silvestre.seguir(pepita)})
 	}
 	
 	method configurarColisiones() {
 		game.onCollideDo(pepita, { algo => algo.teEncontro(pepita) })
 	}
+
 }

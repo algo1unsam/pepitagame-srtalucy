@@ -8,3 +8,5 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":137,"timestamp":"2024-09-17T16:37:37.144Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed pepitaGame.PepitaGame on /home/leon/Work/ALGO1/2024/Workspace/pepitaGame","timeElapsed":128298,"timestamp":"2024-09-17T16:39:50.339Z"}
 {"exitCode":"SIGINT","level":"info","message":"👾 Game executed pepitaGame.PepitaGame on /home/leon/Work/ALGO1/2024/Workspace/pepitaGame","timeElapsed":165886,"timestamp":"2024-09-17T19:26:09.233Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/54113/Desktop/ALGO%20I/pepitagame-srtalucy","timestamp":"2024-10-02T13:57:51.738Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":107,"timestamp":"2024-10-02T13:57:59.733Z"}

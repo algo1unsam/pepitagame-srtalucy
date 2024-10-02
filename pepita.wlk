@@ -4,10 +4,16 @@ import wollok.game.*
 object pepita {
 
 	var property energia = 100
-	var property position = game.origin()
+	var property position = game.at(0,2)
 
 	method image() {
-		return if (self.estaEnElNido()) "pepita-grande.png" else "pepita.png"
+		 if (self.estaEnElNido()){
+			return "pepita-grande.png"
+		 }  else if(silvestre.position()==self.position()){
+			return "pepita-gris.png"
+		 }else{
+			return "pepita.png"
+		 }
 	}
 
 	method come(comida) {
@@ -37,4 +43,3 @@ object pepita {
 	}
 
 }
-
